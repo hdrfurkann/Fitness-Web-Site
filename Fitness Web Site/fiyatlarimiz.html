@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fiyatlarimiz.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/logo/f-fit-logo.jpg" type="image/x-icon" />
+    <title>Fiyatlarımız | F-Fit İzmir Gym</title>
+</head>
+
+<body>
+    <!-- ====== NavBar ====== -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo/f-fit-logo.png" height="75" width="75">
+                </a>
+            </div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <!--<span class="logo-name">F-Fit</span>-->
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/logo/f-fit-logo.png" height="75" width="75">
+                        </a>
+                    </div>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="index.html">ANASAYFA</a></li>
+                    <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+                    <li><a href="fiyatlarimiz.html" class="active">FİYATLARIMIZ</a></li>
+                    <li>
+                        <a href="baslangic-programi.html">EGZERSİZLER</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="baslangic-programi.html">Başlangıç Programı</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">ANTRENÖRLERİMİZ</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a href="#">Antrenör 1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="iletisim.html">İLETİŞİM</a></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" placeholder="Ara...">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ====== Banner ====== -->
+
+    <div class="banner">
+        <img src="assets/salon-goruntuler/img-3.jpg" alt="Banner Image">
+        <div class="banner-content">
+            <p>
+                <span class="head-txt-1">SPOR SALONU ÜYELİK </span><br>
+                <span class="head-txt-2">ÜCRETLERİ</span>
+            </p>
+        </div>
+    </div>
+
+    <section class="fiyatlandirma-section">
+        <div class="fiyatlandirma-aciklama">
+            <p>Burdan üyelik fiyatlarına ulaşabilir, senin için en uygun üyelik tipini
+                seçerek daha iyi bir yaşamın kapılarını aralayabilirsin.</p>
+        </div>
+        <div class="card-content">
+            <div class="card one">
+                <div class="top">
+                    <div class="baslik">Başlangıç</div>
+                    <div class="fiyatlar">
+                        <span class="price">600 TL</span>
+                    </div>
+                </div>
+                <div class="info">1 Aylık Fiyatlandırma</div>
+                <div class="details">
+                    <div class="one">
+                        <span>Kişiye Özel Ölçüm ve Program</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>QR Kod İle Antrenmanlardan Faydalan</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>İndirimli Fiyatlandırma</span>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="one">
+                        <span>Ücretsiz Dondurma Hakkı</span>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <button onclick="SatinAlBtn()">Satın Al</button>
+                </div>
+            </div>
+            <div class="card two">
+                <div class="top">
+                    <div class="baslik">F-Fit</div>
+                    <div class="fiyatlar">
+                        <span class="price">1.000 TL</span>
+                    </div>
+                </div>
+                <div class="info">2 Aylık Fiyatlandırma</div>
+                <div class="details">
+                    <div class="one">
+                        <span>Kişiye Özel Ölçüm ve Program</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>QR Kod İle Antrenmanlardan Faydalan</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>İndirimli Fiyatlandırma</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>Ücretsiz Dondurma Hakkı</span>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <button onclick="SatinAlBtn()">Satın Al</button>
+                </div>
+            </div>
+            <div class="card three">
+                <div class="top">
+                    <div class="baslik">F-Fit Plus+</div>
+                    <div class="fiyatlar">
+                        <span class="price">1.500 TL</span>
+                    </div>
+                </div>
+                <div class="info">3 Aylık Fiyatlandırma</div>
+                <div class="details">
+                    <div class="one">
+                        <span>Kişiye Özel Ölçüm ve Program</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>QR Kod İle Antrenmanlardan Faydalan</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>İndirimli Fiyatlandırma</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="one">
+                        <span>Ücretsiz Dondurma Hakkı</span>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <button onclick="SatinAlBtn()">Satın Al</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Whatsapp - PC Floating ====== -->
+
+    <a class="btn-whatsapp" href="" target="_blank">
+        <div class="btn-whatsapp-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" fill="none" viewBox="0 0 33 32">
+                <path fill="#fff" fill-rule="evenodd"
+                    d="M17.595 3.944a11.865 11.865 0 017.856 3.488 11.868 11.868 0 013.496 8.45c-.002 6.585-5.363 11.943-11.949 11.943-2.476 0-4.444-.761-5.715-1.454l-6.335 1.66 1.696-6.188a11.917 11.917 0 01-1.595-5.97C5.05 9.286 10.412 3.93 16.998 3.93l.597.014zM11.576 24.21l.363.215a9.92 9.92 0 005.055 1.384h.004c5.474 0 9.93-4.453 9.932-9.927a9.865 9.865 0 00-2.906-7.023 9.866 9.866 0 00-7.022-2.911c-5.478 0-9.934 4.453-9.936 9.926a9.9 9.9 0 001.519 5.283l.236.375-1.003 3.664 3.758-.986zm11.442-5.487c-.075-.125-.274-.2-.572-.349-.299-.15-1.767-.871-2.04-.97-.274-.1-.473-.15-.672.149-.2.298-.771.97-.946 1.17-.174.199-.348.224-.646.074-.299-.149-1.26-.464-2.401-1.48-.888-.792-1.487-1.77-1.661-2.068-.175-.299-.019-.46.13-.61.135-.133.3-.348.448-.522.15-.174.2-.299.299-.498.1-.199.05-.373-.025-.523-.075-.149-.672-1.618-.92-2.216-.243-.581-.489-.502-.672-.512-.174-.008-.373-.01-.572-.01-.2 0-.523.074-.797.373-.273.299-1.045 1.021-1.045 2.49 0 1.469 1.07 2.888 1.22 3.087.149.2 2.105 3.213 5.1 4.506.712.307 1.269.491 1.702.629.715.227 1.366.195 1.88.118.574-.086 1.767-.722 2.016-1.42.249-.696.249-1.294.174-1.418z"
+                    clip-rule="evenodd"></path>
+                <mask id="mask0_24_291">
+                    <path fill="#000" fill-rule="evenodd"
+                        d="M11.576 24.21l.363.214a9.92 9.92 0 005.055 1.384h.004c5.474 0 9.93-4.453 9.932-9.927a9.865 9.865 0 00-2.906-7.023 9.866 9.866 0 00-7.022-2.911c-5.478 0-9.934 4.453-9.936 9.926a9.9 9.9 0 001.519 5.283l.236.376-1.003 3.663 3.758-.986zm11.442-5.488c-.075-.125-.274-.2-.572-.349-.299-.15-1.767-.871-2.04-.97-.274-.1-.473-.15-.672.149-.2.298-.771.97-.946 1.17-.174.199-.348.224-.646.075-.299-.15-1.26-.465-2.401-1.482-.888-.791-1.487-1.768-1.661-2.067-.174-.299-.019-.46.13-.609.135-.134.3-.349.448-.523.15-.174.2-.299.299-.498.1-.199.05-.373-.025-.523-.075-.149-.672-1.618-.92-2.215-.243-.582-.489-.503-.672-.513a12.04 12.04 0 00-.572-.01c-.2 0-.523.075-.797.373-.273.3-1.045 1.021-1.045 2.49 0 1.469 1.07 2.888 1.22 3.087.149.2 2.105 3.213 5.1 4.506.712.308 1.269.491 1.702.629.715.227 1.366.195 1.88.118.574-.086 1.767-.722 2.016-1.419.249-.697.249-1.295.174-1.42z"
+                        clip-rule="evenodd"></path>
+                </mask>
+                <g mask="url(#mask0_24_291)">
+                    <path fill="url(#paint0_linear_24_291)" d="M33.407-.667H-.167v33.574h33.574V-.667z"></path>
+                </g>
+                <defs>
+                    <linearGradient id="paint0_linear_24_291" x1="16.62" x2="16.62" y1="32.907" y2="-0.667"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#25CF43"></stop>
+                        <stop offset="1" stop-color="#61FD7D"></stop>
+                    </linearGradient>
+                </defs>
+            </svg>
+            <p>Whatsapp</p>
+        </div>
+    </a>
+
+    <!-- ====== Scroll to Top ====== -->
+
+    <div id="progress">
+        <span id="progress-value">&#x1F815;</span>
+    </div>
+
+    <div class="section-progress">
+        <div class="progress-content">
+        </div>
+    </div>
+
+    <!-- ====== Footer ====== -->
+
+    <section class="footer-section">
+        <div class="footer-content">
+            <h3>F-Fit Spor Salonu</h3>
+            <p>En yeni teknolojiler ve spor ekipmanlarıyla, spor deneyimini bir adım ileri taşı!
+                Profesyonel eğitmenler ile birlikte antrenman yap, en yüksek verimi al. Hayalindeki sağlıklı ve fit
+                yaşam için
+                F-Fit her zaman seninle.</p>
+            <ul class="socials">
+                <li><a href="" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href=""><i class="fa fa-phone"></i></a></li>
+                <li><a href="" target="_blank"><i
+                            class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Fitness Site Tüm Hakları Saklıdır. <span>HDR Yazılım</span></p>
+        </div>
+    </section>
+
+</body>
+
+<!--JavaScript Connection-->
+<script src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,28 @@
+F-Fit Egzersiz Programız
+
+/* Baslangic Haraketleri -  1 Aylik */
+
+Gun1 = Gogus 3x10 = [İnclineDumbbellPress] [ButterFly]
+Gun1 = Omuz 3x10 = [DumbbellLateralRaise] [DumbbellFrontRaise]
+Gun1 = ArkaKol 3x10 = [PushDown] [RopePushDown]
+
+
+Gun2 = Sirt 3x10 = [LatPullUpp] [CableRow] [DumbbellRow]
+Gun2 = Bacak 3x10 = [LegExtension] [LegCurl]
+Gun2 = OnKol 3x10 = [DumbbellBench] [DumbbellCurl] [CableRopeCurl]
+
+Gun3 = Off
+
+Gun4 = Gogus 3x10 = [İnclineDumbbellPress] [ButterFly]
+Gun4 = Omuz 3x10 = [DumbbellLateralRaise] [DumbbellFrontRaise]
+Gun4 = ArkaKol 3x10 = [PushDown] [CableTricepPushdown]
+
+Gun5 = Sirt 3x10 = [LatPullUpp] [CableRow] [DumbbellRow]
+Gun5 = Bacak 3x10 = [LegExtension] [LegCurl]
+Gun5 = OnKol 3x10 = [DumbbellBench] [DumbbellCurl] [CableRopeCurl]
+
+Gun6 = Off
+Gun7 = Off
+
+/* Baslangic Haraketleri -  1 Aylik */
+
